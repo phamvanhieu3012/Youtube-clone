@@ -1,0 +1,46 @@
+.channelRow {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.channelRow__text {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.channelRow__text > p {
+  color: #606060;
+  font-size: small !important;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.channelRow__logo {
+  height: 120px !important;
+  width: 120px !important;
+  margin: 10px 60px;
+}
+
+.channelRow__text > h4 {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.btn--red {
+  background-color: red;
+  color: white;
+  width: 90px;
+  padding: 10px;
+}
